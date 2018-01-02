@@ -13,11 +13,7 @@
 1. [Lab 10](#lab-10)
 
 ## Lab 01
-Use an ssh terminal such as <a 
-
-href="https://www.chiark.greenend.org.uk/~sgtatham/putty/
-
-latest.html">PuTTY</a> to connect to apollo.humber.ca
+Use an ssh terminal such as <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html">PuTTY</a> to connect to apollo.humber.ca
 
 At the command line type:
 sqlplus
