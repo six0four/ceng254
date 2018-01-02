@@ -16,11 +16,17 @@
 Use an ssh terminal such as <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html">PuTTY</a> to connect to apollo.humber.ca
 
 At the command line type:
+```
 [n12345678@apollo ~]$ sqlplus
+```
 next change your password by entering the following and following the prompts:
+```
 SQL> password
+```
 to exit type:
+```
 SQL> quit 
+```
 
 Use <a href="http://www.oracle.com/technetwork/developer-tools/sql-developer/downloads/index.html">Oracle's SQL Developer</a>
 
