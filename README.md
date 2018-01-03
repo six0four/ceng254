@@ -29,12 +29,27 @@ to exit type:
 SQL> quit 
 ```
 
-Use <a href="http://www.oracle.com/technetwork/developer-tools/sql-developer/downloads/index.html">Oracle's SQL Developer</a>
+Use <a href="http://www.oracle.com/technetwork/developer-tools/sql-developer/downloads/index.html">Oracle's SQL Developer</a>   
 
+From the Windows start menu Run SQL developer
 
-sqldeveloper.exe
+Select Connections and start a new one(Green Plus).
+```
+Connection Name: your choice (e.g. apollo_oracle)
+Username: n12345678
+Password: It's a secret!
+Hostname: munro.humber.ca
+Port: 1521
+SID: msit
+```
+Select the TEST button to verify.   
+Select connect.
 
-1. Go to <a href="http://www.oraclesqlbyexample.com/download-the-sample-database.html">Oracle SQL by Example/Alice Rischert</a>.
+Go to <a href="http://www.oraclesqlbyexample.com/download-the-sample-database.html">Oracle SQL by Example/Alice Rischert</a>.
+
+Go to this site: http://www.oraclesqlbyexample.com/
+2. Select "Download the Sample Database" and follow the instructions.
+   When you do part II of the instructions you will perform my part B bel
 
 [link](hyperlink)
 ## Lab 01
