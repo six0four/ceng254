@@ -1,18 +1,18 @@
 # CENG 254
 
 ## Table of Contents
-1. [Lab 01](#lab-01)
-2. [Lab 02](#lab-02)
-3. [Lab 03](#lab-03)
-4. [Lab 04](#lab-04)
-5. [Lab 05](#lab-05)
-6. [Lab 06](#lab-06)
-7. [Lab 07](#lab-07)
-8. [Lab 08](#lab-08)
-9. [Lab 09](#lab-09)
-1. [Lab 10](#lab-10)
+1. [Lab 00](#lab-00)
+2. [Lab 01](#lab-01)
+3. [Lab 02](#lab-02)
+4. [Lab 03](#lab-03)
+5. [Lab 04](#lab-04)
+6. [Lab 05](#lab-05)
+7. [Lab 06](#lab-06)
+8. [Lab 07](#lab-07)
+9. [Lab 08](#lab-08)
+10. [Lab 09](#lab-09)
 
-## Lab 01
+## Lab 00
 Use an ssh terminal such as <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html">PuTTY</a> to connect to apollo.humber.ca
 
 At the command line type:
@@ -36,12 +36,21 @@ sqldeveloper.exe
 1. Go to <a href="http://www.oraclesqlbyexample.com/download-the-sample-database.html">Oracle SQL by Example/Alice Rischert</a>.
 
 [link](hyperlink)
+## Lab 01
+Assignment #1
 ## Lab 02
+Assignment #2
 ## Lab 03
+Assignment #3
 ## Lab 04
+Assignment #4
 ## Lab 05
+Assignment #5
 ## Lab 06
+Assignment #6
 ## Lab 07
+Assignment #7
 ## Lab 08
+Assignment #8
 ## Lab 09
-## Lab 10
+Java/SQLite
