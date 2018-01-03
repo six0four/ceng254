@@ -34,7 +34,9 @@ Use <a href="http://www.oracle.com/technetwork/developer-tools/sql-developer/dow
 From the Windows start menu Run SQL developer  
 Confirm the dialogs   
 
-Select Connections and start a new one(Green Plus).
+On the left hand menu click the green plus button.  
+
+On the form that pops up fill in the information that follows:
 ```
 Connection Name: your choice (e.g. apollo_oracle)
 Username: n12345678
