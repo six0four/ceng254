@@ -31,14 +31,15 @@ SQL> quit
 
 Use <a href="http://www.oracle.com/technetwork/developer-tools/sql-developer/downloads/index.html">Oracle's SQL Developer</a>   
 
-From the Windows start menu Run SQL developer
+From the Windows start menu Run SQL developer  
+Confirm the dialogs   
 
 Select Connections and start a new one(Green Plus).
 ```
 Connection Name: your choice (e.g. apollo_oracle)
 Username: n12345678
 Password: It's a secret!
-Hostname: munro.humber.ca
+Hostname: apollo.humber.ca
 Port: 1521
 SID: msit
 ```
