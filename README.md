@@ -15,10 +15,11 @@
 ## Lab 00
 Use an ssh terminal such as <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html">PuTTY</a> to connect to apollo.humber.ca
 
-At the command line type:
+Once logged in type:
 ```
 [n12345678@apollo ~]$ sqlplus
 ```
+enter your username and password.   
 next change your password by entering the following and following the prompts:
 ```
 SQL> password
