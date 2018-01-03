@@ -50,8 +50,7 @@ Select connect.
 
 Go to <a href="http://www.oraclesqlbyexample.com/download-the-sample-database.html">Oracle SQL by Example/Alice Rischert</a>.
 
-Go to this site: http://www.oraclesqlbyexample.com/
-2. Select "Download the Sample Database" and follow the instructions.
+follow the instructions.
    When you do part II of the instructions you will perform my part B bel
 
 [link](hyperlink)
