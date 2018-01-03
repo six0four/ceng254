@@ -51,8 +51,25 @@ Select connect.
 Go to <a href="http://www.oraclesqlbyexample.com/download-the-sample-database.html">Oracle SQL by Example/Alice Rischert</a>.
 
 follow the instructions.
+
    When you do part II of the instructions you will perform my part B bel
 
+   Performing an SQL query
+1. The next few points refer to lab 2.1 from the text.
+   Note: text StudentConnection is my munro_oracle above.
+2. Expand munro_oracle; expand Tables; expand Course.
+   Investigate Columns, Data, Details
+3. To open an SQL Worksheet - select Tools - select SQL Worksheet - note icon.
+   Note that you created an SQL Worksheet when you opened munro_oracle.
+4. Enter SELECT * FROM COURSE. Note the in-line help when you pause typing in the midst..
+   Press the green triangle.
+   Do the number of courses match your result from Part A?
+5. Compare the data types from the Columns of part C.2 above with the data from the Results of part C.4 above. Report results of comparison.
+6. The next few points refer to lab 2.2 from the text.
+7. Real ALL of lab 2.2 and try out the features.
+8. Perform lab 2.2 exercise a) and b)
+   
+   
 [link](hyperlink)
 ## Lab 01
 Assignment #1
