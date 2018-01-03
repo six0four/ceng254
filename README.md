@@ -20,7 +20,7 @@ Once logged in type:
 [n12345678@apollo ~]$ sqlplus
 ```
 enter your username and password.   
-next change your password by entering the following and following the prompts:
+next change your password (and record it) by entering the following and following the prompts:
 ```
 SQL> password
 ```
@@ -39,8 +39,8 @@ On the left hand menu click the green plus button.
 On the form that pops up fill in the information that follows:
 ```
 Connection Name: choose a name (e.g. apollo_oracle)
-Username: n12345678
-Password: It's a secret!
+Username: your humber id (e.g. n12345678)
+Password: your password as you chose above
 Hostname: apollo.humber.ca
 Port: 1521
 SID: msit
