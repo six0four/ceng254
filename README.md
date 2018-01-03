@@ -50,7 +50,7 @@ Select connect.
 
 Go to <a href="http://www.oraclesqlbyexample.com/download-the-sample-database.html">Oracle SQL by Example/Alice Rischert</a>.
 
-follow steps 1, 2, and 3.
+Follow steps 1, 2, and 3.
 
    Performing an SQL query
 1. The next few points refer to lab 2.1 from the text.
