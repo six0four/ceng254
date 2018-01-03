@@ -50,7 +50,8 @@ Select connect.
 
 Go to <a href="http://www.oraclesqlbyexample.com/download-the-sample-database.html">Oracle SQL by Example/Alice Rischert</a>.
 
-Follow steps 1, 2, and 3.
+Download the scripts.exe​ file.   
+After you download the file, double click on scripts.exe file and unzip the files to the C:\guest\schemasetup directory.   
 
    Performing an SQL query
 1. The next few points refer to lab 2.1 from the text.
