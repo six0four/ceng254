@@ -38,7 +38,7 @@ On the left hand menu click the green plus button.
 
 On the form that pops up fill in the information that follows:
 ```
-Connection Name: your choice (e.g. apollo_oracle)
+Connection Name: choose a name (e.g. apollo_oracle)
 Username: n12345678
 Password: It's a secret!
 Hostname: apollo.humber.ca
