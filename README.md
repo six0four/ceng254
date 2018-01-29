@@ -53,30 +53,11 @@ Go to <a href="http://www.oraclesqlbyexample.com/download-the-sample-database.ht
 Download the scripts.exe​ file.   
 After you download the file, double click on scripts.exe file and unzip the files to the C:\guest\schemasetup directory.   
 
+[Login to Lynda.com](https://login.humber.ca/cas/login?service=https://www.lynda.com/portal/humber)  
+Go to   
+[Programming Foundations: Databases](https://www.lynda.com/Programming-Foundations-tutorials/Foundations-Programming-Databases/412845-2.html)
 
 
-
-   Performing an SQL query
-1. The next few points refer to lab 2.1 from the text.
-   Note: text StudentConnection is my munro_oracle above.
-2. Expand munro_oracle; expand Tables; expand Course.
-   Investigate Columns, Data, Details
-3. To open an SQL Worksheet - select Tools - select SQL Worksheet - note icon.
-   Note that you created an SQL Worksheet when you opened munro_oracle.
-4. Enter SELECT * FROM COURSE. Note the in-line help when you pause typing in the midst..
-   Press the green triangle.
-   Do the number of courses match your result from Part A?
-5. Compare the data types from the Columns of part C.2 above with the data from the Results of part C.4 above. Report results of comparison.
-6. The next few points refer to lab 2.2 from the text.
-7. Real ALL of lab 2.2 and try out the features.
-8. Perform lab 2.2 exercise a) and b)
-   
-[1](basics)
-[Learning-Oracle-Database-12c](https://www.lynda.com/Oracle-tutorials/Learning-Oracle-Database-12c/513600-2.html)
-[SQL-Essential-Training](https://www.lynda.com/SQL-tutorials/SQL-Essential-Training/139988-2.html)
-[Database-Fundamentals-Core-Concepts](https://www.lynda.com/SQL-Server-tutorials/Database-Fundamentals-Core-Concepts/385693-2.html)
-[Relational-Database-Fundamentals](https://www.lynda.com/Access-tutorials/Relational-Database-Fundamentals/145932-2.html)
-[link](hyperlink)
 ## Lab 01
 Assignment #1
 ## Lab 02
