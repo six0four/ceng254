@@ -71,7 +71,11 @@ After you download the file, double click on scripts.exe file and unzip the file
 7. Real ALL of lab 2.2 and try out the features.
 8. Perform lab 2.2 exercise a) and b)
    
-   
+[1](basics)
+[Learning-Oracle-Database-12c](https://www.lynda.com/Oracle-tutorials/Learning-Oracle-Database-12c/513600-2.html)
+[SQL-Essential-Training](https://www.lynda.com/SQL-tutorials/SQL-Essential-Training/139988-2.html)
+[Database-Fundamentals-Core-Concepts](https://www.lynda.com/SQL-Server-tutorials/Database-Fundamentals-Core-Concepts/385693-2.html)
+[Relational-Database-Fundamentals](https://www.lynda.com/Access-tutorials/Relational-Database-Fundamentals/145932-2.html)
 [link](hyperlink)
 ## Lab 01
 Assignment #1
