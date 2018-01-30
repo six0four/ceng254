@@ -71,7 +71,7 @@ Count of SECTION Table: 78
 Count of STUDENT Table: 268
 Count of ZIPCODE Table: 227
 ```
-16. 12. Click the Browse button to locate in the C:\guest\schemasetup directory the script named sql_book_add_tables.sql
+16. Click the Browse button to locate in the C:\guest\schemasetup directory the script named sql_book_add_tables.sql
 17. Open the file, which brings it into the worksheet.
 18. Click the Run Script icon or F5 to run the script.
 19. Show the output of the command SELECT * FROM COURSE in your SQL Developer apollo connection to your professor.
