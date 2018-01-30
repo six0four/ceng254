@@ -74,7 +74,10 @@ Count of ZIPCODE Table: 227
 16. Click the Browse button to locate in the C:\guest\schemasetup directory the script named sql_book_add_tables.sql
 17. Open the file, which brings it into the worksheet.
 18. Click the Run Script icon or F5 to run the script.
-19. Show the output of the command SELECT * FROM COURSE in your SQL Developer apollo connection to your professor.
+19. Select your apollo_oracle connection tab.
+20. Type SELECT * FROM COURSE
+21. Click the Run Script icon or F5 to run the script.
+22. Show the output of the command in SQL Developer to your professor.
 
 ### Part 3 (/0.5)
 1. [Login to Lynda.com](https://login.humber.ca/cas/login?service=https://www.lynda.com/portal/humber)  
