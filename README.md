@@ -13,30 +13,36 @@
 10. [Lab 09](#lab-09)
 
 ## Lab 00
-Use an ssh terminal such as <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html">PuTTY</a> to connect to apollo.humber.ca
 
-Once logged in type:
+### Part 1 (/0.5)
+
+1. Use an ssh terminal such as <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html">PuTTY</a> to connect to apollo.humber.ca
+
+2. Once logged in type:
 ```
 [n12345678@apollo ~]$ sqlplus
 ```
-enter your username and password.   
-next change your password (and record it) by entering the following and following the prompts:
+3. enter your username and password.   
+4. next change your password (and record it) by entering the following and following the prompts:
 ```
 SQL> password
 ```
-to exit type:
+4. Show your professor.
+5. to exit type:
 ```
 SQL> quit 
 ```
 
-Use <a href="http://www.oracle.com/technetwork/developer-tools/sql-developer/downloads/index.html">Oracle's SQL Developer</a>   
+### Part 2 (/1.0)
 
-From the Windows start menu Run SQL developer  
-Confirm the dialogs   
+1. Use <a href="http://www.oracle.com/technetwork/developer-tools/sql-developer/downloads/index.html">Oracle's SQL Developer</a>   
 
-On the left hand menu click the green plus button.  
+2. From the Windows start menu Run SQL developer  
+3. Confirm the dialogs   
 
-On the form that pops up fill in the information that follows:
+4. On the left hand menu click the green plus button.  
+
+5. On the form that pops up fill in the information that follows:
 ```
 Connection Name: choose a name (e.g. apollo_oracle)
 Username: your humber id (e.g. n12345678)
@@ -45,17 +51,29 @@ Hostname: apollo.humber.ca
 Port: 1521
 SID: msit
 ```
-Select the TEST button to verify.   
-Select connect.
+6. Select the TEST button to verify.   
+7. Select connect.
 
-Go to <a href="http://www.oraclesqlbyexample.com/download-the-sample-database.html">Oracle SQL by Example/Alice Rischert</a>.
+8. Go to <a href="http://www.oraclesqlbyexample.com/download-the-sample-database.html">Oracle SQL by Example/Alice Rischert</a>.
 
-Download the scripts.exe​ file.   
-After you download the file, double click on scripts.exe file and unzip the files to the C:\guest\schemasetup directory.   
+9. Download the scripts.exe​ file.   
 
-[Login to Lynda.com](https://login.humber.ca/cas/login?service=https://www.lynda.com/portal/humber)  
-Go to   
-[Programming Foundations: Databases](https://www.lynda.com/Programming-Foundations-tutorials/Foundations-Programming-Databases/412845-2.html)
+10. After you download the file, double click on scripts.exe file and unzip the files to the C:\guest\schemasetup directory.   
+
+11. Show your professor.
+
+### Part 3 (/0.5)
+
+1. [Login to Lynda.com](https://login.humber.ca/cas/login?service=https://www.lynda.com/portal/humber)  
+    1. Visit lynda.com website
+    2. Click 'Sign In' button
+    3. Click Organization Login tab (NOT Individual Login)
+    4. Enter 'www.humber.ca' under organization's URL
+    5. Click 'Go' and you will be redirected to login.humber.ca
+    6. Enter your Humber username and password and click 'LOGIN' button
+    7. You will be redirected back to Lynda.com with full course access to create your own user name.
+    8. Feel free to register via Toronto Public Library instead such that your access is not cut off when you graduate.
+2. Go to [Programming Foundations: Databases](https://www.lynda.com/Programming-Foundations-tutorials/Foundations-Programming-Databases/412845-2.html) and show your professor.
 
 
 ## Lab 01
