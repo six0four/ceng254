@@ -75,7 +75,7 @@ Count of ZIPCODE Table: 227
 17. Open the file, which brings it into the worksheet.
 18. Click the Run Script icon or F5 to run the script.
 19. Select your apollo_oracle connection tab.
-20. Type SELECT * FROM COURSE
+20. Type 'SELECT * FROM COURSE'
 21. Click the Run Script icon or F5 to run the script.
 22. Show the output of the command in SQL Developer to your professor.
 
