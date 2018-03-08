@@ -126,7 +126,7 @@ More JDBC/SQLite to come.
 ```
 [n12345678@apollo ~]$ cd pulic_html
 ```
-3. create the directory:
+3. Create the directory:
 ```
 /home/students/n12345678/public_html/ceng254
 ```
