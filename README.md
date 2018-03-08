@@ -118,4 +118,19 @@ Assignment #7
 Assignment #8
 
 ## Lab 09
-Java/SQLite
+More JDBC/SQLite to come.
+
+## Lab 10
+1. Use an ssh terminal such as <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html">PuTTY</a> to connect to munro.humber.ca
+2. Once logged in type:
+```
+[n12345678@apollo ~]$ cd pulic_html
+```
+3. create the directory:
+```
+/home/students/n12345678/public_html/ceng254
+```
+3. Set appropriate permissions.
+4. Change to that directory and create an index.html and index.jsp again with appropriate permissions.
+5. Complete Learning Java Applications Chapter 6 in the lab using this environment.
+6. More JSP/SQLite to come. This content will be part of Friday's quiz.
