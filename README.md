@@ -124,7 +124,7 @@ More JDBC/SQLite to come.
 1. Use an ssh terminal such as <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html">PuTTY</a> to connect to munro.humber.ca
 2. Once logged in type:
 ```
-[n12345678@apollo ~]$ cd pulic_html
+[n12345678@apollo ~]$ cd public_html
 ```
 3. Create the directory:
 ```
