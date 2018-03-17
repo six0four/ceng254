@@ -120,8 +120,7 @@ Assignment #8
 ## Lab 09
 1. Use JDBC to scroll through a result set using NetBeans SE installed on the
 school computers with our Oracle Database.
-2. Chapters 3 and 4 of [https://www.lynda.com/Java-tutorials/Java-Database-Integration-JDBC/110284-2.html]
-(https://www.lynda.com/Java-tutorials/Java-Database-Integration-JDBC/110284-2.html)
+2. Chapters 3 and 4 of [https://www.lynda.com/Java-tutorials/Java-Database-Integration-JDBC/110284-2.html](https://www.lynda.com/Java-tutorials/Java-Database-Integration-JDBC/110284-2.html)
 will help you with this task.
 3. Write it to a file and read that file in with SQLite.
 
