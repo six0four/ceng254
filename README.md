@@ -130,7 +130,7 @@ will help you with this task.
 1. Use an ssh terminal such as <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html">PuTTY</a> to connect to munro.humber.ca
 2. Once logged in type:
 ```
-[n12345678@apollo ~]$ cd public_html
+[n12345678@munro ~]$ cd public_html
 ```
 3. Create the directory:
 ```
@@ -171,4 +171,4 @@ will help you with this task.
     </body>
 </html>
 ```
-6. This content will be part of Friday's quiz.
+6. For Friday's quiz you will be expected to hand write the URL to your working JSP page.
