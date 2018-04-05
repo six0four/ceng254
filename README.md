@@ -123,7 +123,8 @@ Assignment #8
 school computers with our Oracle Database.
 2. Chapters 3 and 4 of [https://www.lynda.com/Java-tutorials/Java-Database-Integration-JDBC/110284-2.html](https://www.lynda.com/Java-tutorials/Java-Database-Integration-JDBC/110284-2.html)
 will help you with this task.
-3. Write it to a file and read that file in with SQLite.
+3. Write it to a .csv file (discussed in class April 6th).
+4. Optional: use a prepared statement and/or stored procedure instead of a static SQL statement.
 
 ## Lab 10
 1. Use an ssh terminal such as <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html">PuTTY</a> to connect to munro.humber.ca
