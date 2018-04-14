@@ -157,7 +157,7 @@ will help you with this task.
                 Connection c = DriverManager.getConnection("jdbc:oracle:thin:@apollo.humber.ca:1521:msit" ,"n12345678", "ORACLE");
                 Statement s = c.createStatement();
 
-                String query = ("SELECT * FROM STUDENT");
+                String query = ("SELECT * FROM medri.labtenstudent");
                 ResultSet result = s.executeQuery(query);
                 while (result.next()) {
                         %>
