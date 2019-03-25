@@ -30,21 +30,9 @@ public class Hello
 Password:
 *
 ```
-6. create a file hello.sql containing:
+6. Run the following SQL:
 ```
-VARIABLE myString VARCHAR2(20);
-exec :myString := 'people';
-SELECT :myString FROM DUAL;
 CREATE OR REPLACE FUNCTION helloworld RETURN VARCHAR2
 AS LANGUAGE JAVA NAME 'Hello.world () return java.lang.String';
-CALL helloworld() INTO :myString;
-SELECT :myString FROM DUAL;
-```
-7. Run sqlplus and enter your n# and oracle password:
-```
-[n12345678@apollo ceng254]$ sqlplus
-```
-8. Run your script:
-```
-SQL> start hello
+SELECT helloworld() FROM DUAL;
 ```
