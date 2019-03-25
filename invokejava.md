@@ -1,7 +1,8 @@
 ## Getting started with Lab 10
 1. Use an ssh terminal such as <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html">PuTTY</a> to connect to apollo.humber.ca
-2. Once logged in change to an appropriate directory such as the one that you used for JSP:
+2. Once logged in create and change to an appropriate directory similar to the one that you used for JSP on munro:
 ```
+[n12345678@apollo ~]$ mkdir ceng254
 [n12345678@apollo ~]$ cd ceng254
 ```
 3. create a file Hello.java containing:
@@ -17,16 +18,34 @@ public class Hello
 ```
 3. compile it using:
 ```
-javac -target 1.6 -source 1.6 Hello.java
+[n12345678@apollo ceng254]$ javac -target 1.6 -source 1.6 Hello.java
 ```
-(returns a warning: bootstrap class path not set)
+(returns a warning: bootstrap class path not set)   
 4. Load it using:
 ```
-loadjava -user n12345678 Hello.class
+[n12345678@apollo ceng254]$ loadjava -user n12345678 Hello.class
 ```
 5. Note that the blank password prompt does include an initial unremoveable "*" this is okay, enter your oracle password:
 ```
 
 Password:
 *
+```
+6. create a file hello.sql containing:
+```
+VARIABLE myString VARCHAR2(20);
+exec :myString := 'people';
+SELECT :myString FROM DUAL;
+CREATE OR REPLACE FUNCTION helloworld RETURN VARCHAR2
+AS LANGUAGE JAVA NAME 'Hello.world () return java.lang.String';
+CALL helloworld() INTO :myString;
+SELECT :myString FROM DUAL;
+```
+7. Run sqlplus and enter your n# and oracle password:
+```
+[n12345678@apollo ceng254]$ sqlplus
+```
+8. Run your script:
+```
+SQL> start hello
 ```
