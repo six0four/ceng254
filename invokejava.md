@@ -9,9 +9,8 @@
 ```
 public class rand
 {
-  public static String rand (Double n){
-    Double answer=java.lang.Math.random()*n;
-    return answer.toString();
+  public static Double rand (Double n){
+    return java.lang.Math.random()*n;
   }
   public static void main (String[] args){
     System.out.println(rand(Double.valueOf(args[0])));
@@ -35,8 +34,8 @@ Password:
 ```
 6. Run the following SQL:
 ```
-CREATE OR REPLACE FUNCTION rand(n NUMBER) RETURN VARCHAR2
-AS LANGUAGE JAVA NAME 'rand.rand(java.land.Double) return java.lang.String';
+CREATE OR REPLACE FUNCTION rand(n NUMBER) RETURN NUMBER
+AS LANGUAGE JAVA NAME 'rand.rand(java.lang.Double) return java.lang.Double';
 /
 SELECT rand(5) FROM DUAL;
 ```
