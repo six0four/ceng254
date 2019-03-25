@@ -18,9 +18,8 @@ public class Hello
 ```
 3. compile it using:
 ```
-[n12345678@apollo ceng254]$ javac -target 1.6 -source 1.6 Hello.java
+[n12345678@apollo ceng254]$ javac -bootclasspath $ORACLE_HOME/jdk/jre/lib/rt.jar -target 1.6 -source 1.6 Hello.java
 ```
-(returns a warning: bootstrap class path not set)   
 4. Load it using:
 ```
 [n12345678@apollo ceng254]$ loadjava -user n12345678 Hello.class
