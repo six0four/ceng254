@@ -5,24 +5,27 @@
 [n12345678@apollo ~]$ mkdir ceng254
 [n12345678@apollo ~]$ cd ceng254
 ```
-3. create a file Hello.java containing:
+3. create a file rand.java containing:
 ```
-public class Hello
+public class rand
 {
-  public static String world()
-  {
-    return "Hello world";
+  public static String rand (Double n){
+    Double answer=java.lang.Math.random()*n;
+    return answer.toString();
+  }
+  public static void main (String[] args){
+    System.out.println(rand(Double.valueOf(args[0])));
   }
 }
 
 ```
 3. compile it using:
 ```
-[n12345678@apollo ceng254]$ javac -bootclasspath $ORACLE_HOME/jdk/jre/lib/rt.jar -target 1.6 -source 1.6 Hello.java
+[n12345678@apollo ceng254]$ javac -bootclasspath $ORACLE_HOME/jdk/jre/lib/rt.jar -target 1.6 -source 1.6 rand.java
 ```
 4. Load it using:
 ```
-[n12345678@apollo ceng254]$ loadjava -user n12345678 Hello.class
+[n12345678@apollo ceng254]$ loadjava -user n12345678 rand.class
 ```
 5. Note that the blank password prompt does include an initial unremoveable "*" this is okay, enter your oracle password:
 ```
@@ -32,8 +35,9 @@ Password:
 ```
 6. Run the following SQL:
 ```
-CREATE OR REPLACE FUNCTION helloworld RETURN VARCHAR2
-AS LANGUAGE JAVA NAME 'Hello.world () return java.lang.String';
+CREATE OR REPLACE FUNCTION rand(n NUMBER) RETURN VARCHAR2
+AS LANGUAGE JAVA NAME 'rand.rand(java.land.Double) return java.lang.String';
 /
-SELECT helloworld() FROM DUAL;
+SELECT rand(5) FROM DUAL;
 ```
+(you may have to run this command twice.)
